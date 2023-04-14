@@ -18,6 +18,16 @@
 - [framer-motion](https://www.framer.com/motion/) <br />
 - [Tailwind css](https://tailwindcss.com/) <br />
 
+# How to run
+
+```bash
+# clone
+git clone https://github.com/julianomoser/Next.js-Portfolio-main
+
+# run
+npm run dev
+```
+
 # Autor
 Juliano Moser de Jesus
 
