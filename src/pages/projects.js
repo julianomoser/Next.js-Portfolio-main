@@ -112,9 +112,9 @@ const projects = () => {
                                 img={project3}
                                 sumary="A professional portfolio website to showcase my projects and skills.
                                 Built Using Next.js, Tailwind CSS, and Framer Motion."
-                                link="https://moser-dsvendas.netlify.app/"
+                                link="https://moser-portifolio.netlify.app"
                                 type="Featured Project"
-                                github="https://github.com/julianomoser/projeto-sds3"
+                                github="https://github.com/julianomoser/Next.js-Portfolio-main"
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
