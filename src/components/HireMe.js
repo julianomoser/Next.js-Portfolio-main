@@ -8,7 +8,7 @@ export const HireMe = () => {
     flex items-center justify-center overflow-hidden md:right-8 md:left-auto md:top-1 md:bottom-auto 
     md:absolute sm:right-0
     '>
-      <div className='w-48 h-auto flex items-center justify-center relative md:w-28'>
+      <div className='w-[180px] h-auto flex items-center justify-center relative md:w-28'>
         <CircularText className={"fill-dark animate-spin-slow dark:fill-light"} />
 
         <Link href="mailto:juliano.moserjj@gmail.com" className='flex items-center justify-center 

@@ -69,11 +69,6 @@ const Experience = () => {
                     />
 
                     <Details
-                        companyLink="https://www.indracompany.com/pt-br/"
-                        position="Java Developer" company="Indra" time="July 2022" address="Home Work"
-                    />
-
-                    <Details
                         companyLink="https://www.agrofertilpr.com.br"
                         position="Java Developer" company="Agrofertil" time="January 2023" address="Home Work"
                     />

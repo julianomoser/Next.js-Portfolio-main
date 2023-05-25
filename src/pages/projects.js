@@ -11,6 +11,8 @@ import React from 'react'
 import project1 from '../../public/images/projects/dsvendas.png'
 import project2 from '../../public/images/projects/dsmovie.png'
 import project3 from '../../public/images/projects/portfolio.png'
+import project4 from '../../public/images/projects/bitcent.png'
+import project5 from '../../public/images/projects/spacetime.png'
 
 const FramerImage = motion(Image);
 
@@ -108,15 +110,42 @@ const projects = () => {
                     <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                         <div className='col-span-12'>
                             <FeaturedProject
+                                title="Spacetime"
+                                img={project5}
+                                sumary="Memories recall application, where the user can add to a timeline texts, photos, 
+                                and videos of important events in his or her life, organized by month and year.
+                                Built Using Next.js, Tailwind CSS, Expo, Lucid, Prisma and Fastify"
+                                link="https://github.com/julianomoser/spacetime.git"
+                                type="Featured Project"
+                                github="https://github.com/julianomoser/spacetime.git"
+                            />
+                         </div>
+                        
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Bitcente"
+                                img={project4}
+                                sumary="Bitcent is a web application for personal finance control with landing page and dashboard. 
+                                The project uses Firebase for authentication and data storage.
+                                Built Using Next.js, Tailwind CSS, Mantine and Firebase"
+                                link="https://moser-bitcent.netlify.app"
+                                type="Personal Financial Management"
+                                github="https://github.com/julianomoser/bitcent.git"
+                            />
+                        </div>
+
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
                                 title="Portfolio"
                                 img={project3}
                                 sumary="A professional portfolio website to showcase my projects and skills.
                                 Built Using Next.js, Tailwind CSS, and Framer Motion."
-                                link="https://moser-portifolio.netlify.app"
-                                type="Featured Project"
-                                github="https://github.com/julianomoser/Next.js-Portfolio-main"
+                                link="https://moser-dsvendas.netlify.app/"
+                                type="Portfolio"
+                                github="https://github.com/julianomoser/Next.js-Portfolio-main.git"
                             />
                         </div>
+
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
                                 title="DS Movie"

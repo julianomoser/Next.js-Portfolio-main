@@ -23,7 +23,7 @@ export default function Home() {
       <main className='flex items-center text-dark w-full min-h-screen dark:text-light'>
         <Layout className='pt-0 md:pt-6 sm:pt-8'>
           <div className="flex items-center justify-between w-full lg:flex-col">
-            <div className='w-1/2 md:w-full'>
+            <div className='w-[460px] md:w-full'>
               <Image src={profilePic} alt="Juliano Moser" className='w-0px h-auto lg:hidden md:inline-block md:w-0px'
                 priority
                 sizes="(max-width: 768px) 100vw,
