@@ -49,14 +49,21 @@ const Education = () => {
                     md:w-[2px] md:left-[30px] xs:left-[20px]' />
 
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
+                     <Details
+                        type="Post-Graduate MIT in Cloud Computing"
+                        place="Infnet INFNET Institute"
+                        time="2023-Present"
+                        info=""
+                    />
+
                     <Details
                         type="Analysis and Systems Development"
                         place="Unicesumar University"
                         time="2018-2021"
                         info=""
                     />
-                    
                 </ul>
+                
             </div>
         </div>
     )
