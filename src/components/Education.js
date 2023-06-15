@@ -51,7 +51,7 @@ const Education = () => {
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                      <Details
                         type="Post-Graduate MIT in Cloud Computing"
-                        place="Infnet INFNET Institute"
+                        place="INFNET Institute"
                         time="2023-Present"
                         info=""
                     />
